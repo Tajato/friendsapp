@@ -1,0 +1,2 @@
+module FriendsInfosHelper
+end

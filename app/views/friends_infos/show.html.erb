@@ -1,0 +1,26 @@
+
+<div class="card text-white bg-dark mb-3 mt-3 text-center">
+<p>
+  <strong>First name:</strong>
+  <%= @friends_info.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @friends_info.last_name %>
+</p>
+
+<p>
+  <strong>Instagram:</strong>
+  <%= @friends_info.instagram %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @friends_info.phone_number %>
+</p>
+</div>
+<div class="text-center">
+<%= link_to 'Edit', edit_friends_info_path(@friends_info), class:'btn btn-light' %> 
+<%= link_to 'Back', friends_infos_path, class:'btn btn-dark' %>
+</div>
